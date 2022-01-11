@@ -1,0 +1,99 @@
+/* body{
+    background-color: rgb(201, 212, 216);
+} */
+
+/* menu de navegacion */
+
+/* .header_list{
+    display:inline;
+} */
+
+/* header ul li{
+    display: inline;
+} */
+/* logoHome     */
+/* .logoHome >img {
+    margin-top: 0;
+    width: 5%;
+    height: auto;
+    opacity: 0.6;
+    position:absolute;
+    z-index: 999;
+} */
+
+/* portada */
+
+/* .portada >img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(0.5);
+} */
+
+/* programas */
+/* .grid_conteiner__programas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20%;
+    gap: 20px;    
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 20px 20px;
+    width: 100%;
+    margin-bottom: 1000px;
+} */
+
+/* .conteiner_programas_ind{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* width: 400px;
+    height: 400px; */
+    /* padding: 4%;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */ */
+
+.conteiner_text{
+    padding: 2px;
+    background-color: white;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: center;
+}
+#divinidades{
+    background-image: url(../images/carreras/maestria.jpg);
+    filter: grayscale(0.5);
+    opacity: 0.8;
+}
+#ministerio{
+    background-image: url(../images/carreras/ministerio.jpg);
+    filter: grayscale(0.5);
+    opacity: 0.8;
+}
+#expositores{
+    background-image: url(../images/carreras/expositores.jpg);
+    filter: grayscale(0.5);
+    opacity: 0.8;
+}
+
+/* section h1{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font: bold;
+    color: rgb(0, 0, 0);
+   } */
+
+/* section p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    font: bold;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+} */

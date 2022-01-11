@@ -1,0 +1,162 @@
+
+.grid__area {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        "header"
+        "portada"
+        "programa"
+        "fundador"
+        "footer";
+    grid-template-rows: 50px 100px auto 50px 50px;
+    gap: 10px;    
+}
+
+header {
+    grid-area: header;
+    background-color: gray;
+}
+#inicio {
+    grid-area: portada;
+    background-color: rgb(229, 155, 155);
+}
+
+.grid_conteiner__programas {
+    grid-area: programa;
+    background-color: rgb(112, 209, 112);
+}
+.fundador {
+    grid-area: fundador;
+    background-color: rgb(245, 242, 80);
+}
+footer {
+    grid-area: footer;
+    background-color: rgb(80, 204, 212);
+}
+
+
+@media and (min-width: 1366px){
+    .grid__area{
+        grid-template-areas:
+        "header header header header header"
+        "portada portada programa programa programa"
+        "portada portada programa programa programa"
+        "fundador fundador fundador footer footer"
+        "fundador fundador fundador footer footer";
+    }
+}
+
+body{
+    background-color: rgb(201, 212, 216);
+}
+
+/* menu de navegacion */
+
+/* .header_list{
+    display:inline;
+} */
+
+header {
+    display: flex;
+}
+
+.header__nav {
+    display: flex;
+    padding: 2%;
+    margin: 0;
+}
+.header__navConteiner {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+/* portada */
+
+.header__logoHome {
+    background-image: url(../images/Logo\ AMPM.jpg);
+    margin-top: 0;
+    width: 100px;
+    height: auto;
+    opacity: 0.6;
+    position:absolute;
+    z-index: 1;
+}
+
+.portada >img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(0.5);
+}
+
+/* programas */
+.grid_conteiner__programas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20%;
+    gap: 20px;    
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 20px 20px;
+    width: 100%;
+    margin-bottom: 1000px;
+}
+
+.conteiner_programas_ind{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 4%;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner_text{
+    padding: 2px;
+    background-color: white;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: center;
+}
+#divinidades{
+    background-image: url(../images/carreras/maestria.jpg);
+    filter: grayscale(0.5);
+    opacity: 0.8;
+}
+#ministerio{
+    background-image: url(../images/carreras/ministerio.jpg);
+    filter: grayscale(0.5);
+    opacity: 0.8;
+}
+#expositores{
+    background-image: url(../images/carreras/expositores.jpg);
+    filter: grayscale(0.5);
+    opacity: 0.8;
+}
+
+section h1{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font: bold;
+    color: rgb(0, 0, 0);
+   }
+
+section p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    font: bold;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
