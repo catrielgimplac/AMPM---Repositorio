@@ -1,4 +1,4 @@
-# mi primer repositorio AMPM
+# Mi primer repositorio AMPM
 ### Academia AMPM
 
 Desarrollo WEB
