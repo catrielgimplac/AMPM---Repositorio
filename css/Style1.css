@@ -39,10 +39,10 @@ footer {
     .grid__area{
         grid-template-areas:
         "header header header header header"
-        "portada portada programa programa programa"
-        "portada portada programa programa programa"
-        "fundador fundador fundador footer footer"
-        "fundador fundador fundador footer footer";
+        "portada portada portada portada portada"
+        "programa programa programa programa programa"
+        "fundador fundador fundador fundador fundador"
+        "footer footer footer footer footer";
     }
 }
 
