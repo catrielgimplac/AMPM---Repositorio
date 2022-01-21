@@ -1,0 +1,18 @@
+.section_contacto {
+  background-color: #2d46b8;
+}
+
+.section_contacto .div_contacto {
+  padding: 50px;
+  border: solid;
+  display: block;
+}
+
+.section_contacto .h1_contacto {
+  color: white;
+}
+
+.section_contacto .p_contacto {
+  font-size: 20;
+}
+/*# sourceMappingURL=style1.css.map */
