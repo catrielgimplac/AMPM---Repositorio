@@ -1,15 +1,24 @@
-.section_contacto{
-    background-color: rgb(45, 70, 184);
-    .div_contacto{
+//variables
+$colorPrincipal: rgb(45, 70, 184);
+$colorTexto: black;
+
+
+.contacto{
+    background-color: $colorPrincipal;
+    &_div{
         padding: 50px;
         border: solid;
         display: block;
         }
-        .h1_contacto{
+        &_h1{
             color: white;
         }
-        .p_contacto{
-            font-size: 20;
+        &_p{
+            font:{
+                $colorTexto;
+                family: sans-serif;
+                weight: 30;
+                variant: normal;
+            }
         }
-
 }
