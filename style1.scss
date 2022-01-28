@@ -22,3 +22,38 @@ $colorTexto: black;
             }
         }
 }
+
+
+/* maps */
+
+$red-social: (
+    facebook: rgb(117, 176, 231),
+    instagram: rgb(235, 82, 184),
+    youtube: rgb(230, 133, 129)
+);
+@each $nombre, $valor in $red-social {
+    .icon-#{$nombre} {
+        background-color: $valor;
+    }
+}
+
+/* extend */
+
+.img-full {
+    width: 100%;
+    height: 100px;
+}
+
+.img-full--dark {
+    @extend .img-full;
+    background: #000;
+}
+
+/* mixins */
+
+@mixin btn {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #333;
+    text-decoration: none;
+}
