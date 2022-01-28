@@ -56,3 +56,19 @@ $red-social: (
     border: 1px solid #333;
     text-decoration: none;
 }
+
+.btn--danger {
+    @include btn;
+    background: red;
+}
+.btn--info {
+    @include btn;
+    background: lightblue;
+}
+
+@mixin btn ($colorPrincipal) {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: $colorPrincipal;
+}
