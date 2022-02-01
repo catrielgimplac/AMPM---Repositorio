@@ -9,16 +9,66 @@ $colorTexto: black;
         padding: 50px;
         border: solid;
         display: block;
-        }
+    }
         &_h1{
             color: white;
         }
         &_p{
-            font:{
-                $colorTexto;
+            font: $colorTexto;
                 family: sans-serif;
                 weight: 30;
                 variant: normal;
             }
-        }
+}
+
+
+/* maps */
+
+$red-social: (
+    facebook: rgb(117, 176, 231),
+    instagram: rgb(235, 82, 184),
+    youtube: rgb(230, 133, 129)
+);
+@each $nombre, $valor in $red-social {
+    .icon-#{$nombre} {
+        background-color: $valor;
+    }
+}
+
+/* extend */
+
+.border--icon {
+    border: solid 1px;
+    padding: 10px;
+    margin-left: 10px
+}
+
+.border--icon--dark {
+    @extend .border--icon;
+    background: rgb(75, 75, 75);
+}
+
+/* mixins */
+
+@mixin btn {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #333;
+    text-decoration: none;
+}
+
+.btn--danger {
+    @include btn;
+    background: red;
+}
+.btn--info {
+    @include btn;
+    background: lightblue;
+}
+
+@mixin btn ($colorPrincipal) {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: $colorPrincipal;
 }

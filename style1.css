@@ -13,8 +13,50 @@
 }
 
 .contacto_p {
-  font-family: sans-serif;
-  font-weight: 30;
-  font-variant: normal;
+  font: black;
+  family: sans-serif;
+  weight: 30;
+  variant: normal;
+}
+
+/* maps */
+.icon-facebook {
+  background-color: #75b0e7;
+}
+
+.icon-instagram {
+  background-color: #eb52b8;
+}
+
+.icon-youtube {
+  background-color: #e68581;
+}
+
+/* extend */
+.border--icon, .border--icon--dark {
+  border: solid 1px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.border--icon--dark {
+  background: #4b4b4b;
+}
+
+/* mixins */
+.btn--danger {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #333;
+  text-decoration: none;
+  background: red;
+}
+
+.btn--info {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #333;
+  text-decoration: none;
+  background: lightblue;
 }
 /*# sourceMappingURL=style1.css.map */
