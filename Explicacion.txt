@@ -1,0 +1,5 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Somos una academia dispuesta a apoyar tu ministerio Biblico, minsionero y pastoral, mandamos tus y te contactaremos"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "Academia, ministerio, misionero, apoyo, pastoral, estudiar, biblia"
+Encabezado: para el encabezado del h1 utilicé el texto Apoyo Ministerial Pastoral Misionero
+
