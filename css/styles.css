@@ -7706,7 +7706,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  --bs-text-opacity: 1;
+  --bs-text-opacity: 0,8;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
@@ -11312,7 +11312,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #33ECFF 0%, #338AFF 100%);
+  background: linear-gradient(0deg, #ffffff 0%, #2f2f6f 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
