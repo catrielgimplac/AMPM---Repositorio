@@ -6065,7 +6065,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color:#000;
   text-align: center;
   background: none;
   border: 0;
@@ -6705,6 +6705,11 @@ textarea.form-control-lg {
 
 .d-inline-block {
   display: inline-block !important;
+}
+
+.d-block-center {
+  display: block !important;
+  float: inline-end;
 }
 
 .d-block {
